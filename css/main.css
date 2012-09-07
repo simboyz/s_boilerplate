@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Author : 
+   ========================================================================== */
+
+/*
+ * Start Your Style From Here
+ */
+@import url("normalize.css");
+
+@font-face{
+  font-family: 'NanumGothicWeb';
+  src: url('fonts/NanumGothic.ttf'); 
+}
+
+html, body {
+	font-family: 'NanumGothicWeb', Arial, Helvetica, sans-serif;
+}
