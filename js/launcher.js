@@ -16,12 +16,12 @@ APP.path = {
 
 APP.init = (function() {
 
-    $LAB.script(APP.path.libs('jquery.dev')) //finaly change 'jquery.min'
-    .script(APP.path.libs('handlebars.min')) //for template
-    .script(APP.path.libs('raphael.min')) //for drawing someting
-    .script(APP.path.libs('d3.min')) //for data visualizing
-    .script(APP.path.libs('tween.min')) //for smoothe chainning animation        
-    .wait(function() {
+    $LAB.script(APP.path.libs('jquery.dev')).
+    script(APP.path.libs('handlebars.min')).
+    script(APP.path.libs('raphael.min')).
+    script(APP.path.libs('d3.min')).
+    script(APP.path.libs('tween.min')).
+    wait(function() {
         $LAB.script(APP.path.plugins('jquery.animate.enhanced.min')); //for elastic animation
     });
 }());
